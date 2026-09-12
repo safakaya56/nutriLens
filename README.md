@@ -8,20 +8,25 @@ NutriLens, kullanıcıların tükettikleri öğünlerin fotoğraflarını çeker
 
 <div align="center">
 
-### Ana Sayfa & Kalori Takibi
+### 1. Açılış & Kimlik Doğrulama
+| Karşılama Ekranı | Giriş Yap |
+| :---: | :---: |
+| <img src="docs/screenshots/01_splash.jpeg" width="350" alt="Karşılama Ekranı" /> | <img src="docs/screenshots/02_login.jpeg" width="350" alt="Giriş Yap" /> |
+
+### 2. Ana Sayfa (Açık & Koyu Tema)
 | Açık Tema | Koyu Tema |
 | :---: | :---: |
-| <img src="docs/screenshots/01_dashboard_light.png" width="350" alt="Ana Sayfa Açık Tema" /> | <img src="docs/screenshots/02_dashboard_dark.png" width="350" alt="Ana Sayfa Koyu Tema" /> |
+| <img src="docs/screenshots/03_dashboard_light.jpeg" width="350" alt="Ana Sayfa Açık Tema" /> | <img src="docs/screenshots/04_dashboard_dark.jpeg" width="350" alt="Ana Sayfa Koyu Tema" /> |
 
-### Yapay Zeka Yemek Analizi & Profil Yönetimi
-| Yemek & Makro Analiz Sonucu | Fiziksel Profil & Hedefler |
+### 3. Yapay Zeka Yemek Analizi & Barkod Taraması
+| Yapay Zeka Analiz Sonucu | Barkod Tarayıcı |
 | :---: | :---: |
-| <img src="docs/screenshots/03_food_analysis_result.png" width="350" alt="Analiz Sonucu" /> | <img src="docs/screenshots/04_physical_profile.png" width="350" alt="Fiziksel Profil" /> |
+| <img src="docs/screenshots/05_food_analysis_result.jpeg" width="350" alt="Yapay Zeka Analiz Sonucu" /> | <img src="docs/screenshots/06_barcode_scanner.jpg" width="350" alt="Barkod Tarayıcı" /> |
 
-### Ayarlar & Özelleştirilmiş Arayüz
-| Ayarlar Ekranı | Saat Seçici Modalı |
+### 4. Fiziksel Profil & Ayarlar
+| Fiziksel Profil & Hedefler | Ayarlar Ekranı |
 | :---: | :---: |
-| <img src="docs/screenshots/05_settings.png" width="350" alt="Ayarlar" /> | <img src="docs/screenshots/06_time_picker.png" width="350" alt="Saat Seçici" /> |
+| <img src="docs/screenshots/07_physical_profile.jpeg" width="350" alt="Fiziksel Profil" /> | <img src="docs/screenshots/08_settings.jpeg" width="350" alt="Ayarlar" /> |
 
 </div>
 
@@ -74,6 +79,7 @@ nutriLens/
 │   ├── requirements.txt
 │   └── .env.example
 │
+├── ss/                            # Ekran Görüntüleri Kaynağı
 └── docs/
     └── screenshots/               # Dokümantasyon Ekran Görüntüleri
 ```
