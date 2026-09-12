@@ -1,10 +1,12 @@
-# NutriLens 🥗
+# NutriLens
 
-NutriLens, kullanıcıların tükettikleri öğünlerin fotoğraflarını çekerek kalori ve makro besin değerlerini (Protein, Karbonhidrat, Yağ) yapay zeka ile analiz eden, aynı zamanda barkod okuma ve günlük beslenme takibi sunan mobil ve backend projesidir.
+NutriLens, bireylerin günlük beslenme alışkanlıklarını ve kalori takiplerini zahmetsiz bir şekilde yönetebilmeleri amacıyla geliştirilmiş akıllı bir beslenme ve sağlık asistanıdır. Geleneksel beslenme uygulamalarında yaşanan manuel veri girişi zorluğunu ortadan kaldırarak, tabağınızdaki yemeğin tek bir fotoğrafı ile porsiyon, kalori ve temel makro besin değerlerini (Protein, Karbonhidrat, Yağ) otomatik olarak analiz eder.
+
+Paketli gıdalar için entegre barkod tarama desteği sunan uygulama, kullanıcının fiziksel yapısını (yaş, boy, kilo, aktivite seviyesi) esas alarak Mifflin-St Jeor formülüyle kişiye özel günlük BMR, TDEE ve makro hedefleri belirler. Tüketilen su miktarından geçmiş beslenme özetlerine kadar tüm süreç, açık ve koyu tema seçenekleriyle modern ve sezgisel bir arayüz üzerinden takip edilebilir.
 
 ---
 
-## 📱 Ekran Görüntüleri
+## Ekran Görüntüleri
 
 <div align="center">
 
@@ -37,17 +39,17 @@ NutriLens, kullanıcıların tükettikleri öğünlerin fotoğraflarını çeker
 
 ---
 
-## 🚀 Öne Çıkan Özellikler
+## Öne Çıkan Özellikler
 
-- 📸 **Görsel Tabanlı Besin Analizi**: Yemek fotoğrafından yemek türü, porsiyon gramajı ve kalori/makro değerlerini Google Gemini 1.5 Flash Vision modeli ile anında hesaplar.
-- 🔍 **Barkod Taraması**: Paketli gıdaların barkodunu tarayarak besin veritabanından kalori ve içerik bilgilerini getirir.
-- 🎯 **Kişiselleştirilmiş Kalori Hedefleri**: Mifflin-St Jeor formülünü kullanarak kullanıcının yaş, boy, kilo, cinsiyet ve aktivite seviyesine göre BMR, TDEE ve günlük hedef kalori/makro dağılımını (Protein %30, Karbonhidrat %45, Yağ %25) hesaplar.
-- 💧 **Günlük Su ve Öğün Takibi**: Günlük su tüketim takibi ve 7 günlük geçmiş beslenme günlüğü inceleme olanağı sunar.
-- 🌙 **Dinamik Koyu / Açık Tema**: Gece kullanımı için tasarlanmış slate renk paletine sahip koyu tema desteği.
+- **Görsel Tabanlı Besin Analizi**: Yemek fotoğrafından yemek türü, porsiyon gramajı ve kalori/makro değerlerini Google Gemini Vision AI modeli ile anında hesaplar.
+- **Barkod Taraması**: Paketli gıdaların barkodunu tarayarak besin veritabanından kalori ve içerik bilgilerini getirir.
+- **Kişiselleştirilmiş Kalori Hedefleri**: Mifflin-St Jeor formülünü kullanarak kullanıcının yaş, boy, kilo, cinsiyet ve aktivite seviyesine göre BMR, TDEE ve günlük hedef kalori/makro dağılımını hesaplar.
+- **Günlük Su ve Öğün Takibi**: Günlük su tüketim takibi ve geçmiş beslenme günlüğü inceleme olanağı sunar.
+- **Dinamik Koyu ve Açık Tema**: Gece kullanımı için tasarlanmış slate renk paletine sahip koyu tema desteği.
 
 ---
 
-## 🛠️ Teknoloji Yığını
+## Teknoloji Yığını
 
 ### Mobil Uygulama (`mobile/`)
 - **Framework**: Flutter (Dart)
@@ -57,13 +59,13 @@ NutriLens, kullanıcıların tükettikleri öğünlerin fotoğraflarını çeker
 
 ### Backend Servisi (`backend/`)
 - **Framework**: Python 3.10+ & FastAPI
-- **Yapay Zeka Servisi**: Google Gemini API (`google-genai` / Gemini 1.5 Flash)
+- **Yapay Zeka Servisi**: Google Gemini Vision AI (`google-genai`)
 - **Veritabanı**: MongoDB Atlas & Motor (Async Drivers)
 - **Kimlik Doğrulama**: JWT (JSON Web Tokens) & Passlib (Bcrypt Password Hashing)
 
 ---
 
-## 🏗️ Proje Dizin Yapısı
+## Proje Dizin Yapısı
 
 ```text
 nutriLens/
@@ -90,7 +92,7 @@ nutriLens/
 
 ---
 
-## ⚡ Yerel Kurulum & Çalıştırma
+## Yerel Kurulum ve Çalıştırma
 
 ### 1. Backend Kurulumu
 ```bash
@@ -124,5 +126,5 @@ flutter run
 
 ---
 
-## 📄 Lisans
+## Lisans
 Bu proje [MIT Lisansı](LICENSE) altında lisanslanmıştır.
