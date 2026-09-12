@@ -18,15 +18,20 @@ NutriLens, kullanıcıların tükettikleri öğünlerin fotoğraflarını çeker
 | :---: | :---: |
 | <img src="docs/screenshots/03_dashboard_light.jpeg" width="350" alt="Ana Sayfa Açık Tema" /> | <img src="docs/screenshots/04_dashboard_dark.jpeg" width="350" alt="Ana Sayfa Koyu Tema" /> |
 
-### 3. Yapay Zeka Yemek Analizi & Barkod Taraması
-| Yapay Zeka Analiz Sonucu | Barkod Tarayıcı |
+### 3. Yemek & Barkod Tarama
+| Fotoğrafla Yemek Tarama | Barkod Tarayıcı |
 | :---: | :---: |
-| <img src="docs/screenshots/05_food_analysis_result.jpeg" width="350" alt="Yapay Zeka Analiz Sonucu" /> | <img src="docs/screenshots/06_barcode_scanner.jpg" width="350" alt="Barkod Tarayıcı" /> |
+| <img src="docs/screenshots/05_food_camera_scan.jpg" width="350" alt="Fotoğrafla Yemek Tarama" /> | <img src="docs/screenshots/06_barcode_scanner.jpg" width="350" alt="Barkod Tarayıcı" /> |
 
-### 4. Fiziksel Profil & Ayarlar
+### 4. Yapay Zeka Yemek Analiz Sonucu
+| Analiz Sonucu & Makrolar | Besin & İçerik Detayları |
+| :---: | :---: |
+| <img src="docs/screenshots/07_food_analysis_result_1.jpeg" width="350" alt="Yapay Zeka Analiz Sonucu 1" /> | <img src="docs/screenshots/08_food_analysis_result_2.jpeg" width="350" alt="Yapay Zeka Analiz Sonucu 2" /> |
+
+### 5. Fiziksel Profil & Ayarlar
 | Fiziksel Profil & Hedefler | Ayarlar Ekranı |
 | :---: | :---: |
-| <img src="docs/screenshots/07_physical_profile.jpeg" width="350" alt="Fiziksel Profil" /> | <img src="docs/screenshots/08_settings.jpeg" width="350" alt="Ayarlar" /> |
+| <img src="docs/screenshots/09_physical_profile.jpeg" width="350" alt="Fiziksel Profil" /> | <img src="docs/screenshots/10_settings.jpeg" width="350" alt="Ayarlar" /> |
 
 </div>
 
@@ -79,7 +84,6 @@ nutriLens/
 │   ├── requirements.txt
 │   └── .env.example
 │
-├── ss/                            # Ekran Görüntüleri Kaynağı
 └── docs/
     └── screenshots/               # Dokümantasyon Ekran Görüntüleri
 ```
